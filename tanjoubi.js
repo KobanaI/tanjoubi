@@ -53,7 +53,7 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
 const imageBoukenka = new Image();
-imageBoukenka.src = 'image/megamoji.gif'
+imageBoukenka.src = 'megamoji.gif'
 let rotationAngle = 0; // 初期回転角度
 
 function drawRotatingImage() {
