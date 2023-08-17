@@ -16,8 +16,13 @@ function generateRandomColor() {
 }
 
 
-
-
+let headingH2 = document.getElementById('headingH2');
+let degreeH = 0;
+function rotateH2(){
+  degreeH += 5;
+  headingH2.style.transform = 'rotateY(' + degreeH + 'deg)';
+}
+setInterval(rotateH2, 30);
 
 
 
