@@ -1,0 +1,21 @@
+.face{
+  color: aliceblue;
+}
+body{
+  background-color: black;
+}
+
+
+/* ボタンのスタイルを定義 */
+#assessment {
+  font-size: 100px; /* フォントサイズを変更 */
+  padding: 10px 20px; /* パディングを追加 */
+  background-color: #fff; /* ボタンの背景色 */
+  border: none; /* ボーダーを削除 */
+  cursor: pointer; /* カーソルをポインターに変更 */
+}
+
+/* ボタンがクリックされたときのスタイル */
+#assessment.clicked {
+  background-color: #f0f0f0; /* クリック時の背景色 */
+}
