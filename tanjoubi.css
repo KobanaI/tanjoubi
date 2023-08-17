@@ -19,3 +19,10 @@ body{
 #assessment.clicked {
   background-color: #f0f0f0; /* クリック時の背景色 */
 }
+
+
+/* h2要素のスタイルを定義 */
+#myHeading {
+  font-size: 24px; /* フォントサイズを変更 */
+  color: #333; /* フォントの色を設定 */
+}
