@@ -1,6 +1,6 @@
 const Button = document.getElementById('assessment');
 
-Button.onclick = function backimage(){
+Button.onclick = function(){
   const randomColor = generateRandomColor(); // ランダムな色を生成
   document.body.style.backgroundColor = randomColor; // ランダムな色を背景色に適用
 };
@@ -14,7 +14,6 @@ function generateRandomColor() {
   }
   return color;
 }
-setInterval(backimage, 30);
 
 
 
